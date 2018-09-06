@@ -1,0 +1,319 @@
+
+
+body {
+   
+    background-image: url("background3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+}
+
+#titleBar {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 10%;
+    font-size: 25px;
+    padding-top:0;
+    border-radius:10px;
+    background:lightgray;
+
+}
+
+#navButtons{
+    position:absolute;
+    right:0;
+    bottom:0;
+    padding-right: 20px;
+    border:none;
+    color:white;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+
+#name{
+    display:inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color:black;
+    color:white;
+    padding-left: 10%;
+    padding-right:10%;
+    text-shadow: 2px 2px 8px lightgray;
+
+}
+
+#seperator{
+    position:relative;
+    left: 0;
+    right: 0;
+    height: 2%;
+    background-color: purple;
+    color:purple;
+    margin-bottom:0;
+    background-image: radial-gradient(purple,black)
+}
+
+.main{
+    display:inline-block;
+    border-style:solid;
+    color:white;
+    width:100%;
+    height:200px;
+    border-width:0;
+    background-repeat:none;
+    background-image: url("sky.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px black;
+}
+
+h2 {
+    position:absolute;
+    margin-left:10%;
+    float:right;
+    width: 25%;
+    font-size: 4.5vw;
+    padding-right:20%;
+    max-height:100px;
+    text-align:center;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom:auto;
+
+}
+
+#intro{
+    text-indent: 20px;
+    color:white;    
+    font-size: 15px;
+    width:50%;
+    height: auto;
+    text-align:left;
+    float:right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:-100px;
+    margin-right:10%;
+    margin-bottom:5%;
+    text-shadow: 2px 2px 8px black;
+}
+
+#homePicture {
+    float: right;
+    width:50%;
+}
+
+#profilePic {
+    position:relative;
+    border-radius:100px;
+    margin-bottom:0;
+    padding-bottom:0;
+    
+}
+
+#introStuff{
+    margin-top:100px;
+    margin-left:15%;
+    display:inline-block;
+    border-style:solid;
+    background-color:white;
+    border-radius: 100px;
+    width:14%;
+    box-shadow: 10px 10px 8px black;
+}
+
+#personalInfo {
+    text-align: center;
+    color:black;
+    font-size:25px;
+}
+
+.resume {
+    color:black;
+    font-size: 20px;
+    text-shadow: .5px .5px  black;
+}
+
+#organisations{
+    color:black;
+}
+
+#resume {
+    box-shadow: 10px 10px 8px black;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 75%;
+    margin-top:auto;
+    padding-bottom:5%;
+    margin-bottom:auto;
+    background-color:white;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:purple;
+    background-image: radial-gradient(purple,black)
+
+    
+}
+
+#email{
+    display:inline;
+    margin-left:4%;
+}
+
+.fa{
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+hr{
+    width: 70%;
+    height: 4px;
+    background: lightGray;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:solid;
+    box-shadow: 10px 10px 8px black;
+}
+
+#contact{
+    color:white;
+    font-size:40px;
+    text-align:center;
+    margin-top: 3%;
+    text-shadow:6px 6px 8px black;
+}
+
+#contactEmail{
+    font-size:30px;
+}
+
+.emailText{
+    
+    width: 100%;
+    
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.email{
+    width:50%;
+    margin-left:10%;
+    
+    text-shadow:2px 2px 8px lightgray;
+    display:inline-block;
+    position:relative;
+}
+
+#contactInfo{
+    
+    text-shadow:6px 6px 8px black;
+    display:inline-block;
+    font-size:20px;
+    position:absolute;
+    padding-left:10%;
+    border-left-style:solid;
+    border-color:lightgray;
+    margin-left:10%;
+    
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.shadow{
+    box-shadow: 10px 10px 8px black;
+    text-shadow:6px 6px 8px black;
+}
+
+#containContact{
+    position:relative;
+    width:80%;
+
+}
+
+#aboutPicMe{
+    margin-top:5%;
+    width:20%;
+    display:inline-block;
+    margin-left:20%;
+    border-style:solid;
+    
+}
+
+#aboutMe{
+    margin-top:5%;
+    float:right;
+    width: 45%;
+    margin-right:10%;
+    font-size:20px;
+    
+}
+
+#aboutWife{
+    margin-top:5%;
+    display:inline-block;
+    margin-left:20%;
+    width: 35%;
+    font-size:20px;
+    
+}
+
+#aboutPicWife{
+    
+    
+    float:right;
+    width:20%;
+    border-style:solid;
+    margin-right:20%;
+}
+
+#aboutPicHobby{
+    margin-top:10%;
+    width:20%;
+    display:inline-block;
+    margin-left:20%;
+    border-style:solid;
+    height:300px;
+    
+}
+
+#aboutHobby{
+    
+    float:right;
+    margin-bottom:5%;
+    width: 30%;
+    margin-right:10%;
+    font-size:20px;
+    
+    
+  
+}
